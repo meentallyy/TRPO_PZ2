@@ -1,0 +1,21 @@
+name: CI/CD
+
+on:
+  workflow_dispatch:  # Запуск кнопкой "Run workflow"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Среда выполнения — ВМ Ubuntu
+
+    steps:
+      - name: Клонирование кода репозитория на ВМ
+        uses: actions/checkout@v4
+
+      - name: Установка необходимых зависимостей
+        run: sudo apt update && sudo apt install -y cmake g++
+
+      - name: Создание файлов сборки
+        run: cmake .
+
+      - name: Сборка
+        run: cmake --build .
