@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['divide_0',['Divide',['../functions_8cpp.html#aee365abf669f09a3676b9f6cb9e5beed',1,'Divide(int a, int b):&#160;functions.cpp'],['../functions_8h.html#aee365abf669f09a3676b9f6cb9e5beed',1,'Divide(int a, int b):&#160;functions.cpp']]]
+  ['functions_2ecpp_0',['functions.cpp',['../functions_8cpp.html',1,'']]],
+  ['functions_2eh_1',['functions.h',['../functions_8h.html',1,'']]]
 ];
