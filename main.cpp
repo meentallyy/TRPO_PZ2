@@ -10,12 +10,10 @@ int main() {
 
     int a = 10, b = 5;
 
-    // Вывод результата работы функций
     cout << "Сумма: " << Add(a, b) << endl;
     cout << "Разность: = " << Subtract(a, b) << endl;
     cout << "Умножение: = " << Multiply(a, b) << endl;
     cout << "Деление: " << Divide(a, b) << endl;
-    cout << "Степень: " << Power(a, b) << endl;
 
     return 0;
 }
