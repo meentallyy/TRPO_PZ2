@@ -3,6 +3,12 @@ name: CI/CD
 on:
   workflow_dispatch:  # Запуск кнопкой "Run workflow"
   push:               # Запуск при новом коммите
+  pull_request:
+    branches:
+      -main
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -23,3 +29,19 @@ jobs:
 
       - name: Запуск тестов
         run: ./tests
+
+      - name: Генерация документации
+        run: doxygen doxygen_file
+
+      - name: Индентиыикация
+        if: github.event_name == 'push'
+        run: |
+          git config --global user.email "a.galk.2019@yandex.ru"
+          git config --global user.name "meentallyy"
+          
+      - name: Коммит изменений документации
+        if: github.event_name == 'push'
+        run: |
+          git add docs/
+          git commit -m "Автоматичесткое обновление документации"
+          git push 

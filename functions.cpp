@@ -5,11 +5,11 @@
   @brief Реализация математических функций
 */
 
-int Add(int a, int b) {
+int PLUS(int a, int b) {
     return a + b;
 }
 
-int Subtract(int a, int b) {
+int MINUS(int a, int b) {
     return a - b;
 }
 

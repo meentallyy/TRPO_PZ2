@@ -10,8 +10,8 @@ int main() {
 
     int a = 5, b = -3;
 
-    cout << "Сумма: " << Add(a, b) << endl;
-    cout << "Разность: = " << Subtract(a, b) << endl;
+    cout << "Сумма: " << PLUS(a, b) << endl;
+    cout << "Разность: = " << MINUS(a, b) << endl;
     cout << "Умножение: = " << Multiply(a, b) << endl;
     cout << "Деление: " << Divide(a, b) << endl;
     cout << "Степень: " << Power(a, b) << endl;

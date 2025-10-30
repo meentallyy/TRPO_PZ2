@@ -1,25 +1,25 @@
 /**
   @file functions.h
-  @brief Заголовочный файл с объявлениями математических функций
+  @brief ПРОВЕРКА ИЗМЕНЕНИЙ ДОКУМЕНТАЦИИ
 
   Содержит математические функции Add, Subtract, Multiply, Divide, Power. 
 */
 
 /**
-  @brief Складывает два числа
-  @param[in] a Первое число
+  @brief ИЗМЕНЕНИЕ
+  @param[in] ИЗМЕНЕНИЕ
   @param[in] b Второе число
   @return Результат сложения a + b
 */
-int Add(int a, int b);
+int PLUS(int a, int b);
 
 /**
-  @brief Вычитает одно число из другого
-  @param[in] a Уменьшаемое
+  @brief ИЗМЕНЕНИЕ
+  @param[in] ИЗМЕНЕНИЕ
   @param[in] b Вычитаемое
   @return Результат вычитания a - b
 */
-int Subtract(int a, int b);
+int MINUS(int a, int b);
 
 /**
   @brief Перемножает два числа

@@ -8,11 +8,11 @@ int main() {
 
     cout << "Running tests..." << endl;
 
-    assert(Add(2, 3) == 5);
-    assert(Add(-1, 1) == 0);
+    assert(PLUS(2, 3) == 5);
+    assert(PLUS(-1, 1) == 0);
 
-    assert(Subtract(10, 4) == 6);
-    assert(Subtract(0, 5) == -5);
+    assert(MINUS(10, 4) == 6);
+    assert(MINUS(0, 5) == -5);
 
     assert(Multiply(3, 5) == 15);
     assert(Multiply(-2, 4) == -8);
