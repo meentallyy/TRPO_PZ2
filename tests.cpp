@@ -1,15 +1,12 @@
 #include <iostream>
 #include <cassert>
-#include <locale.h>
 #include "functions.h"
 
 using namespace std;
 
 int main() {
 
-    setlocale(LC_ALL, "Russian");
-
-    cout << "Запуск тестов" << endl;
+    cout << "Running tests..." << endl;
 
     assert(Add(2, 3) == 5);
     assert(Add(-1, 1) == 0);
@@ -23,6 +20,6 @@ int main() {
     assert(Divide(10, 2) == 5);
     assert(Divide(5, 2) == 2.5);
 
-    cout << "Все тесты пройдены." << endl;
+    cout << "All tests completed successfully." << endl;
     return 0;
 }
