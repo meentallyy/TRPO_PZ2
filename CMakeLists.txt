@@ -4,3 +4,9 @@ add_executable(TRPO_PZ2
     main.cpp
     functions.cpp
 )
+
+enable_testing()
+add_executable(tests
+    functions.cpp
+    tests.cpp
+)
