@@ -1,5 +1,10 @@
 #include "functions.h"
 
+/**
+  @file functions.cpp
+  @brief Реализация математических функций
+*/
+
 int Add(int a, int b) {
     return a + b;
 }

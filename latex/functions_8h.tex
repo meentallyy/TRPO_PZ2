@@ -1,0 +1,133 @@
+\doxysection{Файл functions.\+h}
+\hypertarget{functions_8h}{}\label{functions_8h}\index{functions.h@{functions.h}}
+
+
+Заголовочный файл с объявлениями математических функций  
+
+
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{functions_8h_a7ef670896886a640355f60b3050e86a2}{Add}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Складывает два числа \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{functions_8h_acb4966b2e0d2947a71f7429e878af50b}{Subtract}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Вычитает одно число из другого \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{functions_8h_a1cd7e144e42db125c783ef2e4b70bb2c}{Multiply}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Перемножает два числа \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{functions_8h_aee365abf669f09a3676b9f6cb9e5beed}{Divide}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Делит одно число на другое \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{functions_8h_a515307531c5f5b556691186b57efb131}{Power}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Возводит число в степень \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Заголовочный файл с объявлениями математических функций 
+
+Содержит математические функции Add, Subtract, Multiply, Divide, Power. 
+
+\label{doc-func-members}
+\Hypertarget{functions_8h_doc-func-members}
+\doxysubsection{Функции}
+\Hypertarget{functions_8h_a7ef670896886a640355f60b3050e86a2}\index{functions.h@{functions.h}!Add@{Add}}
+\index{Add@{Add}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily \label{functions_8h_a7ef670896886a640355f60b3050e86a2} 
+int Add (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Складывает два числа 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Первое число \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Второе число \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат сложения a + b 
+\end{DoxyReturn}
+\Hypertarget{functions_8h_aee365abf669f09a3676b9f6cb9e5beed}\index{functions.h@{functions.h}!Divide@{Divide}}
+\index{Divide@{Divide}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{Divide()}{Divide()}}
+{\footnotesize\ttfamily \label{functions_8h_aee365abf669f09a3676b9f6cb9e5beed} 
+double Divide (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Делит одно число на другое 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Делимое \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Делитель \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат деления a / b. 
+\end{DoxyReturn}
+\begin{DoxyNote}{Заметки}
+Если b = 0, функция возвращает 0. 
+\end{DoxyNote}
+\Hypertarget{functions_8h_a1cd7e144e42db125c783ef2e4b70bb2c}\index{functions.h@{functions.h}!Multiply@{Multiply}}
+\index{Multiply@{Multiply}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{Multiply()}{Multiply()}}
+{\footnotesize\ttfamily \label{functions_8h_a1cd7e144e42db125c783ef2e4b70bb2c} 
+int Multiply (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Перемножает два числа 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Первое множимое \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Второе множимое \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Произведение чисел a \texorpdfstring{$\ast$}{*} b 
+\end{DoxyReturn}
+\Hypertarget{functions_8h_a515307531c5f5b556691186b57efb131}\index{functions.h@{functions.h}!Power@{Power}}
+\index{Power@{Power}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{Power()}{Power()}}
+{\footnotesize\ttfamily \label{functions_8h_a515307531c5f5b556691186b57efb131} 
+double Power (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Возводит число в степень 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Основание степени \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Показатель степени (может быть отрицательным) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Значение a в степени b 
+\end{DoxyReturn}
+\Hypertarget{functions_8h_acb4966b2e0d2947a71f7429e878af50b}\index{functions.h@{functions.h}!Subtract@{Subtract}}
+\index{Subtract@{Subtract}!functions.h@{functions.h}}
+\doxysubsubsection{\texorpdfstring{Subtract()}{Subtract()}}
+{\footnotesize\ttfamily \label{functions_8h_acb4966b2e0d2947a71f7429e878af50b} 
+int Subtract (\begin{DoxyParamCaption}\item[{int}]{a}{, }\item[{int}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Вычитает одно число из другого 
+
+
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{in}}  & {\em a} & Уменьшаемое \\
+\hline
+\mbox{\texttt{in}}  & {\em b} & Вычитаемое \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Результат вычитания a -\/ b 
+\end{DoxyReturn}
