@@ -1,10 +1,14 @@
 #include <iostream>
 #include <cassert>
+#include <locale.h>
 #include "functions.h"
 
 using namespace std;
 
 int main() {
+
+    setlocale(LC_ALL, "Russian");
+
     cout << "Запуск тестов" << endl;
 
     assert(Add(2, 3) == 5);
