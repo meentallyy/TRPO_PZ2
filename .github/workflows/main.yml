@@ -31,7 +31,7 @@ jobs:
         run: ./tests
 
       - name: Генерация документации
-        run: doxygen doxygen_file
+        run: doxygen Doxyfile
 
       - name: Индентиыикация
         if: github.event_name == 'push'
