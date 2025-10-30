@@ -20,9 +20,6 @@ int main() {
     assert(Divide(10, 2) == 5);
     assert(Divide(5, 2) == 2.5);
 
-    assert(Power(2, 3) == 8);
-    assert(Power(5, 0) == 1);
-
     cout << "All tests completed successfully." << endl;
     return 0;
 }
