@@ -8,7 +8,7 @@ int main() {
 
     setlocale(LC_ALL, "Russian");
 
-    int a = 10, b = 5;
+    int a = 5, b = -3;
 
     cout << "Сумма: " << Add(a, b) << endl;
     cout << "Разность: = " << Subtract(a, b) << endl;

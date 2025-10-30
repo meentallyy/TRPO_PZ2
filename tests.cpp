@@ -21,7 +21,7 @@ int main() {
     assert(Divide(5, 2) == 2.5);
 
     assert(Power(2, 3) == 8);
-    assert(Power(5, 0) == 1);
+    assert(Power(5, -3) == 0.008);
 
     cout << "All tests completed successfully." << endl;
     return 0;
