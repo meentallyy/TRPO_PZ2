@@ -14,6 +14,7 @@ int main() {
     cout << "Разность: = " << Subtract(a, b) << endl;
     cout << "Умножение: = " << Multiply(a, b) << endl;
     cout << "Деление: " << Divide(a, b) << endl;
+    cout << "Степень: " << Power(a, b) << endl;
 
     return 0;
 }
